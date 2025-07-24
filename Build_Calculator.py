@@ -23,7 +23,7 @@ class calculator:
                 print("Cannot divide by zero.")
             else:
                 result =(self.u_choice[self.opr]())
-                print(f"Your result is: {result}")
+                print(f"Required result is: {result}")
         else:
             print("Invalid operation")
 
